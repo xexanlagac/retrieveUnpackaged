@@ -16,6 +16,7 @@ public class AsyncCalculatorServices {
     public class doMultiplyResponseFuture extends System.WebServiceCalloutFuture {
         public Double getValue() {
             calculatorServices.doMultiplyResponse response = (calculatorServices.doMultiplyResponse)System.WebServiceCallout.endInvoke(this);
+            system.debug('*');
             return response.return_x;
         }
     }
