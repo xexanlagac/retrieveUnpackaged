@@ -32,6 +32,7 @@ public class AsyncCalculatorServices {
         public Integer timeout_x;
         private String[] ns_map_type_info = new String[]{'http://calculator.services/', 'calculatorServices'};
         public AsyncCalculatorServices.doDivideResponseFuture beginDoDivide(System.Continuation continuation,Double arg0,Double arg1) {
+            system.debug('test');
             calculatorServices.doDivide request_x = new calculatorServices.doDivide();
             request_x.arg0 = arg0;
             request_x.arg1 = arg1;
