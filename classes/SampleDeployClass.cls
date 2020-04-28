@@ -3,7 +3,7 @@ public class SampleDeployClass {
 
     public static testmethod void t1() {
         helloMethod();
-        //system.debug('test');
+        system.debug('test');
         Account acc = new Account(Name= 'fred');
         insert acc; // hit the trigger
 
