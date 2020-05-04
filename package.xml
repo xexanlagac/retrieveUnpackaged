@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AddRelatedRecord</members>
-        <members>ShareTerr</members>
+        <members>AsyncCalculatorServices</members>
+        <members>SampleDeployClass</members>
+        <members>SampleFailingTestClass</members>
+        <members>calculatorServices</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SampleAccountTrigger</members>
         <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
-    </types>
-    <types>
-        <members>default_appointment_scheduling_policy</members>
-        <name>AppointmentSchedulingPolicy</name>
     </types>
     <types>
         <members>Case.Standard</members>
@@ -38,6 +40,11 @@
         <name>Community</name>
     </types>
     <types>
+        <members>workfromhomegetty</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Financial_Services</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
@@ -47,7 +54,6 @@
         <members>standard__LightningInstrumentation</members>
         <members>standard__LightningSales</members>
         <members>standard__LightningSalesConsole</members>
-        <members>standard__LightningScheduler</members>
         <members>standard__LightningService</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
@@ -66,9 +72,9 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Case.Case_Category__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
-        <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
@@ -92,12 +98,13 @@
     </types>
     <types>
         <members>Account</members>
+        <members>AccountBrand</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
+        <members>ActiveScratchOrg</members>
         <members>Activity</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
-        <members>AssignedResource</members>
         <members>AssistantProgress</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
@@ -105,9 +112,11 @@
         <members>AuthorizationFormText</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
-        <members>CardPaymentMethod</members>
         <members>Case</members>
         <members>CaseContactRole</members>
+        <members>ChannelProgram</members>
+        <members>ChannelProgramLevel</members>
+        <members>ChannelProgramMember</members>
         <members>ChatterActivity</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
@@ -127,12 +136,9 @@
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
-        <members>CreditMemo</members>
-        <members>CreditMemoLine</members>
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
-        <members>DigitalWallet</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -146,8 +152,6 @@
         <members>Idea</members>
         <members>Image</members>
         <members>Individual</members>
-        <members>Invoice</members>
-        <members>InvoiceLine</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
@@ -156,7 +160,8 @@
         <members>MacroUsage</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
-        <members>OperatingHours</members>
+        <members>NamespaceRegistry</members>
+        <members>NetworkMember</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
@@ -166,14 +171,12 @@
         <members>OrgDeleteRequest</members>
         <members>OrgMetricScanResult</members>
         <members>OrgMetricScanSummary</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
         <members>PartnerRole</members>
         <members>PartyConsent</members>
-        <members>Payment</members>
-        <members>PaymentAuthorization</members>
-        <members>PaymentGateway</members>
-        <members>PaymentGroup</members>
-        <members>PaymentLineInvoice</members>
-        <members>PaymentMethod</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
@@ -184,35 +187,21 @@
         <members>Recommendation</members>
         <members>RecordAction</members>
         <members>RecordMergeHistory</members>
-        <members>Refund</members>
-        <members>RefundLinePayment</members>
-        <members>ResourceAbsence</members>
-        <members>ResourcePreference</members>
         <members>RevenueElement</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
-        <members>ServiceAppointment</members>
-        <members>ServiceResource</members>
-        <members>ServiceResourceSkill</members>
-        <members>ServiceTerritory</members>
-        <members>ServiceTerritoryMember</members>
-        <members>ServiceTerritoryWorkType</members>
+        <members>ScratchOrgInfo</members>
         <members>Site</members>
-        <members>SkillRequirement</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>Task</members>
-        <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
-        <members>WorkType</members>
-        <members>WorkTypeGroup</members>
-        <members>WorkTypeGroupMember</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -223,6 +212,11 @@
     </types>
     <types>
         <members>unfiled$public</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityLockoutEmailTemplate</members>
+        <members>unfiled$public/CommunityVerificationEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
@@ -260,16 +254,15 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>AccountBrand-Account Brand Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AssetRelationship-Asset Relationship Layout</members>
-        <members>AssignedResource-Assigned Resource Layout</members>
         <members>AuthorizationForm-Authorization Form Layout</members>
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
-        <members>CardPaymentMethod-Card Payment Method Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
         <members>Case-Case %28Sales%29 Layout</members>
         <members>Case-Case %28Support%29 Layout</members>
@@ -287,26 +280,20 @@
         <members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
-        <members>CreditMemo-Credit Memo Layout</members>
-        <members>CreditMemoLine-Credit Memo Line Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
-        <members>DigitalWallet-Digital Wallet Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
-        <members>Invoice-Invoice Layout</members>
-        <members>InvoiceLine-Invoice Line Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
-        <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -314,43 +301,27 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
-        <members>Payment-Payment Layout</members>
-        <members>PaymentAuthorization-Payment Authorization Layout</members>
-        <members>PaymentGateway-Payment Gateway Layout</members>
-        <members>PaymentGatewayLog-Payment Gateway Log Layout</members>
-        <members>PaymentGroup-Payment Group Layout</members>
-        <members>PaymentLineInvoice-Payment Line Invoice Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>QuickText-Quick Text Layout</members>
-        <members>Refund-Refund Layout</members>
-        <members>RefundLinePayment-Refund Line Payment Layout</members>
-        <members>ResourceAbsence-Resource Absence Layout</members>
-        <members>ResourcePreference-Resource Preference Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
-        <members>ServiceAppointment-Service Appointment Layout</members>
-        <members>ServiceResource-Service Resource Layout</members>
-        <members>ServiceResourceSkill-Service Resource Skill Layout</members>
-        <members>ServiceTerritory-Service Territory Layout</members>
-        <members>ServiceTerritoryMember-Service Territory Member Layout</members>
-        <members>SkillRequirement-Skill Requirement Layout</members>
         <members>SocialPersona-Social Persona Layout</members>
         <members>SocialPost-Social Post Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
-        <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>WorkType-Work Type Layout</members>
-        <members>WorkTypeGroup-Work Type Group Layout</members>
-        <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Financial_Services_Lightning_Bolt</members>
+        <name>LightningBolt</name>
     </types>
     <types>
         <members>Account.AllAccounts</members>
@@ -358,6 +329,9 @@
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
         <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>AccountBrand.All_Account_Brands</members>
+        <members>ActiveScratchOrg.All_Active_Scratch_Orgs</members>
+        <members>ActiveScratchOrg.My_Active_Scratch_Orgs</members>
         <members>Activity.AllActivities</members>
         <members>Activity.MyActivities</members>
         <members>Activity.TodaysTasks</members>
@@ -369,11 +343,14 @@
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
-        <members>CardPaymentMethod.CardPaymentMethod</members>
         <members>Case.AllClosedCases</members>
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>ChannelProgram.All_Channel_Programs</members>
+        <members>ChannelProgram.My_Channel_Programs</members>
+        <members>ChannelProgramLevel.All_Channel_Program_Levels</members>
+        <members>ChannelProgramLevel.My_Channel_Program_Levels</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
@@ -396,10 +373,8 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
-        <members>CreditMemo.mine</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
-        <members>DigitalWallet.DigitalWallet</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>Event.MyRecentEvents</members>
         <members>Event.MyTeamsRecentEvents</members>
@@ -407,13 +382,12 @@
         <members>Event.MyUpcomingEvents</members>
         <members>Event.TodaysAgenda</members>
         <members>Idea.Ideas_Last_7_Days</members>
-        <members>Invoice.mine</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
-        <members>OperatingHours.All_OperatingHours</members>
+        <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -426,25 +400,21 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>PartnerFundAllocation.All_Partner_Fund_Allocations</members>
+        <members>PartnerFundAllocation.My_Partner_Fund_Allocations</members>
+        <members>PartnerFundClaim.All_Partner_Fund_Claims</members>
+        <members>PartnerFundClaim.My_Partner_Fund_Claims</members>
+        <members>PartnerFundRequest.All_Partner_Fund_Requests</members>
+        <members>PartnerFundRequest.My_Partner_Fund_Requests</members>
+        <members>PartnerMarketingBudget.All_Partner_Marketing_Budgets</members>
+        <members>PartnerMarketingBudget.My_Partner_Marketing_Budgets</members>
         <members>PartyConsent.All_PartyConsents</members>
-        <members>Payment.Payment</members>
-        <members>PaymentAuthorization.PaymentAuthorization</members>
-        <members>PaymentGateway.PaymentGateway</members>
-        <members>PaymentGroup.PaymentGroup</members>
-        <members>PaymentLineInvoice.PaymentLineInvoice</members>
         <members>Product2.AllProducts</members>
         <members>Recommendation.All_Recommendations</members>
-        <members>Refund.Refund</members>
-        <members>RefundLinePayment.RefundLinePayment</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
-        <members>ServiceAppointment.All_ServiceAppointments</members>
-        <members>ServiceAppointment.MyPendingAppointments</members>
-        <members>ServiceAppointment.MyScheduledAppointments</members>
-        <members>ServiceResource.All_ServiceResources</members>
-        <members>ServiceResource.My_ServiceResources</members>
-        <members>ServiceTerritory.All_ServiceTerritories</members>
-        <members>ServiceTerritory.My_ServiceTerritories</members>
+        <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
+        <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
         <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
@@ -461,10 +431,6 @@
         <members>WorkFeedbackRequest.AboutTopics</members>
         <members>WorkFeedbackRequest.All</members>
         <members>WorkFeedbackTemplate.All</members>
-        <members>WorkType.All_WorkTypes</members>
-        <members>WorkType.My_WorkTypes</members>
-        <members>WorkTypeGroup.All_WorkTypeGroups</members>
-        <members>WorkTypeGroup.My_WorkTypeGroups</members>
         <name>ListView</name>
     </types>
     <types>
@@ -586,6 +552,8 @@
     </types>
     <types>
         <members>Account</members>
+        <members>AccountBrand</members>
+        <members>ActiveScratchOrg</members>
         <members>ActivityRecurrence2</members>
         <members>Asset</members>
         <members>AssistantInteraction</members>
@@ -598,6 +566,7 @@
         <members>CalendarView</members>
         <members>Campaign</members>
         <members>Case</members>
+        <members>ChannelProgram</members>
         <members>CleanLeadBackup</members>
         <members>CommSubscription</members>
         <members>CommSubscriptionChannelType</members>
@@ -608,7 +577,6 @@
         <members>ContactPointConsent</members>
         <members>ContactPointTypeConsent</members>
         <members>ContactRequest</members>
-        <members>CreditMemo</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>EngagementChannelType</members>
@@ -617,7 +585,6 @@
         <members>FlowInterview</members>
         <members>Image</members>
         <members>Individual</members>
-        <members>Invoice</members>
         <members>Lead</members>
         <members>ListEmail</members>
         <members>Macro</members>
@@ -628,6 +595,10 @@
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrgDeleteRequest</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
         <members>PartyConsent</members>
         <members>PromptAction</members>
         <members>QuickText</members>
@@ -635,9 +606,7 @@
         <members>RecordMergeHistory</members>
         <members>ReportResultBlob</members>
         <members>Scorecard</members>
-        <members>ServiceAppointment</members>
-        <members>ServiceResource</members>
-        <members>ServiceTerritory</members>
+        <members>ScratchOrgInfo</members>
         <members>SiqUserBlacklist</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
@@ -646,8 +615,6 @@
         <members>UserAppMenuCustomization</members>
         <members>UserEmailPreferredPerson</members>
         <members>UserProvisioningRequest</members>
-        <members>WorkType</members>
-        <members>WorkTypeGroup</members>
         <name>SharingRules</name>
     </types>
     <types>
@@ -655,6 +622,8 @@
         <members>Asset</members>
         <members>Campaign</members>
         <members>Case</members>
+        <members>ChannelProgram</members>
+        <members>ChannelProgramLevel</members>
         <members>Contact</members>
         <members>ContentDocument</members>
         <members>Contract</members>
@@ -662,13 +631,10 @@
         <members>Lead</members>
         <members>Opportunity</members>
         <members>Order</members>
-        <members>ResourceAbsence</members>
-        <members>ResourcePreference</members>
-        <members>ServiceAppointment</members>
-        <members>ServiceResource</members>
-        <members>ServiceResourceSkill</members>
-        <members>ServiceTerritory</members>
-        <members>ServiceTerritoryMember</members>
+        <members>PartnerFundAllocation</members>
+        <members>PartnerFundClaim</members>
+        <members>PartnerFundRequest</members>
+        <members>PartnerMarketingBudget</members>
         <members>Solution</members>
         <members>Task</members>
         <name>TopicsForObjects</name>
@@ -743,7 +709,6 @@
         <members>OmniChannel</members>
         <members>Opportunity</members>
         <members>Order</members>
-        <members>OrderManagement</members>
         <members>Org</members>
         <members>OrgPreference</members>
         <members>Pardot</members>
