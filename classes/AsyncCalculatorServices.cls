@@ -4,9 +4,9 @@ public class AsyncCalculatorServices {
     public class doDivideResponseFuture extends System.WebServiceCalloutFuture {
         public Double getValue() {
             calculatorServices.doDivideResponse response = (calculatorServices.doDivideResponse)System.WebServiceCallout.endInvoke(this);
-            system.debug('test'); 
-            system.debug('test');
-            system.debug('test');  
+            //system.debug('test'); 
+            //system.debug('test');
+            //system.debug('test');  
             return response.return_x;
         }
     }
