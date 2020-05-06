@@ -5,7 +5,7 @@ public class AsyncCalculatorServices {
         public Double getValue() {
             calculatorServices.doDivideResponse response = (calculatorServices.doDivideResponse)System.WebServiceCallout.endInvoke(this);
             system.debug("test"); 
-            //system.debug("test2"); 
+            system.debug("test2"); 
             return response.return_x;
         }
     }
