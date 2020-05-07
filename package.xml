@@ -2,8 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AsyncCalculatorServices</members>
-        <members>CreateAccount</members>
         <members>CreateAccountTest</members>
+        <members>CreatingAccount</members>
         <members>SampleDeployClass</members>
         <members>SampleFailingTestClass</members>
         <members>calculatorServices</members>
