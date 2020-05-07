@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 files=($(awk -F'[<>]' '/<members>/{print $3}' package.xml))  #Create an array of filenames based on the package.xml
 
