@@ -4,6 +4,7 @@
         <members>CreatingAccount</members>
         <members>CreateAccountTest</members>
         <members>AccountTriggerHandler</members>
+        <members>AccountTriggerHandler_Test</members>
         <name>ApexClass</name>
     </types>
     <version>47.0</version>
