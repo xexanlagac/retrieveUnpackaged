@@ -31,7 +31,7 @@ public class AccountTriggerHandler
                         accRec.ShippingCountry = accRec.BillingCountry;
                         accRec.ShippingPostalCode = accRec.BillingPostalCode;
                         system.debug('test');
-                        system.debug('test');
+    
                     }
                 }
             }
