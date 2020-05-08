@@ -3,6 +3,7 @@ public Class CreatingAccount {
         Account acc = new Account();
         acc.Name = name;
         system.debug('test');
+        system.debug('test');
         return acc;
     }
 }
